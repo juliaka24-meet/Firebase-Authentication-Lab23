@@ -6,5 +6,38 @@
 </head>
 <body>
     Great Job!
+    <form method="post" action="/add_tweet">
+
+        <h4>
+        Add a tweet
+        </h4>
+
+        <!-- Subheading -->
+        <p >
+        Please fill up the information below to add a tweet:
+        </p>
+
+        <!-- title -->
+            <div>
+                <label>Title*</label>
+                <div>
+                    <input type="title"  name="title" id="titleStr" required>
+                </div>
+            </div>
+
+            <!-- text -->
+            <div>
+                <label>Text*</label>
+                <div>
+                    <input type="text"  name="text" maxlength="280" id="textStr" required>
+                </div>
+            </div>
+
+        <!-- Button -->
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
+
 </body>
 </html>

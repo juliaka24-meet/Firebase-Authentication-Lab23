@@ -16,11 +16,26 @@
         Please fill up your information below to sign in.
         </p>
 
+        <!-- Full name -->
+        <div>
+            <label>Full name*</label>
+            <div>
+                <input type="name"  name="name" id="nameStr" required>
+            </div>
+        </div>
+
         <!-- Email -->
         <div>
             <label>Email address*</label>
             <div>
                 <input type="email"  name="email" id="emailStr" required>
+            </div>
+        </div>
+
+         <div>
+            <label>Bio*</label>
+            <div>
+                <input type="bio"  name="bio" maxlength="280" id="bioStr" required>
             </div>
         </div>
 
@@ -31,7 +46,7 @@
                 <input type="password"  name="password" minlength="6">
             </div>
         </div>
-        
+
         <!-- Button -->
         <div>
             <input type="submit"/>

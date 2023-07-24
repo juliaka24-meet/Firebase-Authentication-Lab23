@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-{%for tweet in Tweets%}
-<p> {{tweet}} </p>
+<body style="background-color:powderblue;">
+{%for Tweet in tweets%}
+<p> {{tweets[Tweet]}} <a href='/add_like'><button> <3 </button></a></p>
 {%endfor%}
 </html>
